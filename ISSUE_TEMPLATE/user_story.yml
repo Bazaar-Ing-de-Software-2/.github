@@ -1,0 +1,32 @@
+name: User Story
+description: Historia de usuario del proyecto Bazaar
+title: "[US] "
+labels: ["user-story"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Completa todos los campos obligatorios 
+
+  - type: dropdown
+    id: epica
+    attributes:
+      label: Épica
+      description: ¿A qué épica pertenece?
+      options:
+        - Usuarios
+        - Perfil
+        - Catálogo
+        - Carrito
+        - Checkout y Órdenes
+        - Vendedor
+        - Administración
+        - Métricas
+        - Reviews
+        - Wishlist
+        - Notificaciones
+        - Recomendaciones
+    validations:
+      required: true
+
+  
