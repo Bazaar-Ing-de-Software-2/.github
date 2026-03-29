@@ -1,4 +1,4 @@
-name: User Story
+name: 📖 User Story
 description: Historia de usuario del proyecto Bazaar
 title: "[US] "
 labels: ["user-story"]
@@ -73,8 +73,8 @@ body:
     attributes:
       label: Tipo de historia
       options:
-        - Obligatoria
-        - Optativa
+        - ⭐ Obligatoria
+        - ✨ Optativa
     validations:
       required: true
 
