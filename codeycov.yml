@@ -1,0 +1,19 @@
+coverage:
+  status:
+    project:
+      default:
+        target: 70%
+        threshold: 1%
+    patch:
+      default:
+        target: 70%
+        threshold: 1%
+
+comment:
+  layout: "reach,diff,flags,files"
+  behavior: default
+  require_changes: false
+#which files to ignore in the analysis 
+#TODO: when adding more files recheck this
+ignore: 
+  - "**/*.test.*"
